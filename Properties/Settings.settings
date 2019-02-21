@@ -1,0 +1,29 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AirPlane.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AirPlaneConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=.;Initial Catalog=AirPlane;User ID=sa;Password=1234&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=.;Initial Catalog=AirPlane;User ID=sa;Password=1234</Value>
+    </Setting>
+    <Setting Name="StatesField_StatesNamePersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">StatesNamePersion</Value>
+    </Setting>
+    <Setting Name="StatesTableName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AirPlane.DBO.States</Value>
+    </Setting>
+    <Setting Name="IranTableName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AirPlane.DBO.Iran</Value>
+    </Setting>
+    <Setting Name="RasterCatalogName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AirPlane.DBO.Rasters</Value>
+    </Setting>
+    <Setting Name="StatesField_StatesNameEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">StatesNameEnglish</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
